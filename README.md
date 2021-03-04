@@ -19,3 +19,9 @@ docker run -d --name ratings -p 8080:8080 --link mongodb:mongodb \
 ```
 
 * Test with path `/ratings/1`
+
+## How to run with Docker
+
+```bash
+docker-compose up
+```
