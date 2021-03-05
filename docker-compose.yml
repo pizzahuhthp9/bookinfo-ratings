@@ -2,7 +2,7 @@ version: '3.7'
 services:
   ratings:
     build: .
-    image: ratings
+    image: ghcr.io/pizzahuhthp9/ratings
     ports:
       - "8080:8080"
     environment:
